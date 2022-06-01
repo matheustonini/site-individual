@@ -9,7 +9,7 @@
 <body>
 
      <body class="corpo">
-        <link rel="stylesheet" href="tela-inicio.css">
+        <link rel="stylesheet" href="tela-login.css">
         
         <!-- Header -->
         <div class="header">
@@ -71,3 +71,70 @@
         </div>
 
         <!-- fim da header -->
+
+                        
+        <div class="banner">
+            <div class="alerta_erro">
+                <div class="card_erro" id="cardErro">
+                    <span id="mensagem_erro"></span>
+                </div>
+            </div>
+            <div class="container"> 
+                
+                <div class="card">
+                    
+                    <h2>Bem-vindo de volta!</h2>
+                    <div class="formulario">
+    
+                        <img class="galinha" src="galinha login.png" >
+                        
+                        <span class="tipo_campo">E-mail:</span>
+                        <input id="email_input" type="text" placeholder="Login">
+    
+                        <span class="tipo_campo">Senha:</span>
+                        <input id="senha_input" type="password" placeholder="******">
+    
+                        <button class="btn" onclick="entrar()">Entrar</button>
+                        
+                       
+                    </div>
+    
+                    <div id="div_aguardar" class="loading-div">
+                        <img src="./assets/circle-loading.gif" id="loading-gif">
+                    </div>
+    
+                    <div id="div_erros_login">
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--Inicio do Footer-->
+  
+    <footer>
+    
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+            <div class="footer-content">
+                <h1> <a href="">CONTATE-NOS</a></h1>
+                <p>
+                   Rua Santos 343 Andar 12, Taboão, São Bernardo do Campo, SP 09666-000 <br>
+                    Whatsapp: (11) 98204-0944 || Telefone: (11) 5573-6359|| Email: csmecontato@gmail.com
+                </p>
+                <ul class="sociais">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>copyright &copy;2022 CS:ME</p>
+            </div>
+        
+    </footer>
+    </body>
+
+
+    </html>
+    <script>
+   

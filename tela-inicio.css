@@ -142,28 +142,31 @@
 
   }
   .card1 {
-    margin-top: 25px;
+    margin-top: 145px;
+    box-shadow: 5px 5px 5px black;
   }
   .banner2 .card2 {
     width: 33%;
     border-left: 50px;
     }
   .card2 {
-    margin-top: 25px;
+    margin-top: 145px;
+    box-shadow: 5px 5px 5px black;
   }
   .banner2 .card3 {
     width: 33%;
     border-left: 50px;
     }
     .card3 {
-      margin-top: 25px;
+      margin-top: 145px;
+      box-shadow: 5px 5px 5px black;
     }
 
     .card1:hover {
       -webkit-transform: scale(1.035);
       -ms-transform: scale(1.035);
-transform: scale(1.035);
-display: inline-block;
+      transform: scale(1.035);
+      display: inline-block;
     }
 
     .card2:hover {
@@ -255,4 +258,7 @@ display: inline-block;
       font-size: 14px;
       word-spacing: 2px;
       text-transform: capitalize;
+  }
+  .texto1 {
+    font-size: 40px;
   }
